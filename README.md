@@ -8,10 +8,10 @@ O backend tem o propósito de lista os dados e de realizar algumas consultas sim
 
 Os _Todo List_ possuem os seguintes atributos:
 
- - Nome
- - Lista de tarefas
- — Nome da tarefa
- — Status (está concluída ou não)
+- Nome
+- Lista de tarefas
+  - Nome da tarefa
+  - Status (está concluída ou não)
 
 Ex.:
 
