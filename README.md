@@ -4,7 +4,7 @@ Teste para vaga de estágio [Full-Stack Developer](http://jobs.tracksale.co/o/es
 ## Descrição
 Criar uma aplicação simples para simular um sistema de _Todo List_ utilizando uma comunicação RESTful com o frontend.
 
-O backend tem o propósito de listar os dados e de realizar algumas consultas simples nos dados. Não se preocupe em manter as alterações do frontend no backend.
+O backend, em Laravel, tem o propósito de listar os dados e de realizar algumas consultas simples nos dados. Não se preocupe em manter as alterações do frontend no backend.
 
 Os _Todo List_ possuem os seguintes atributos:
 
