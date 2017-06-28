@@ -40,3 +40,8 @@ O frontend pode ser desenvolvido utilizando qualquer biblioteca ou framework. Ut
 - [ ] Listar todos os _Todo List_ no _endpoint_ GET /api/todo
 - [ ] Vai ser preciso implementar o método _find_ no \App\TodoService.php
 - [ ] Filtar os _Todo List_ no _endpoint_ GET /api/todo?q=exemplo
+
+Exemplo para utilizar o TodoService:
+```php
+$items = \App\TodoService::getAll();
+```
