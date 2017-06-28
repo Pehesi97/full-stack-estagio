@@ -45,3 +45,6 @@ Exemplo para utilizar o TodoService:
 ```php
 $items = \App\TodoService::getAll();
 ```
+
+---------------------
+Dúvidas? Envie um email para dev@tracksale.co
