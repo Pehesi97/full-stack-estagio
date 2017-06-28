@@ -4,7 +4,7 @@ Teste para vaga de estágio [Full-Stack Developer](http://jobs.tracksale.co/o/es
 ## Descrição
 Criar uma aplicação simples para simular um sistema de _Todo List_ utilizando uma comunicação RESTful com o frontend.
 
-O backend tem o propósito de lista os dados e de realizar algumas consultas simples nos dados. Não se preocupe em manter as alterações do frontend no backend.
+O backend tem o propósito de listar os dados e de realizar algumas consultas simples nos dados. Não se preocupe em manter as alterações do frontend no backend.
 
 Os _Todo List_ possuem os seguintes atributos:
 
@@ -39,7 +39,7 @@ O frontend pode ser desenvolvido utilizando qualquer biblioteca ou framework. Ut
 
 - [ ] Listar todos os _Todo List_ no _endpoint_ GET /api/todo
 - [ ] Vai ser preciso implementar o método _find_ no \App\TodoService.php
-- [ ] Filtar os _Todo List_ no _endpoint_ GET /api/todo?q=exemplo
+- [ ] Filtrar os _Todo List_ no _endpoint_ GET /api/todo?q=exemplo
 
 Exemplo para utilizar o TodoService:
 ```php
