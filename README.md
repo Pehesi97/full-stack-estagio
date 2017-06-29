@@ -46,5 +46,10 @@ Exemplo para utilizar o TodoService:
 $items = \App\TodoService::getAll();
 ```
 
+Exemplo para inciar o servidor:
+```bash
+php artisan serve
+```
+
 ---------------------
 Dúvidas? Envie um email para dev@tracksale.co
