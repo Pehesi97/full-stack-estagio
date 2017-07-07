@@ -12,6 +12,5 @@
 */
 
 Route::get('/', function () {
-    \App\TodoService::find('a');
-    return view('welcome');
+    return view('index');
 });

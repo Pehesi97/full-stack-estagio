@@ -69,11 +69,15 @@ class TodoService
     public static function find($title = null) {
         guard(compact('title'));
 
-        sleep(2);
+        sleep(1);        
         
         $filteredItems = [];
 
-        //Implemente aqui
+        foreach(self::$base as $todo) {
+            if(strpos($todo['title'], $title) !== false) {
+                array_push($filteredItems, $todo);
+            }
+        }        
 
         return $filteredItems;
     }
