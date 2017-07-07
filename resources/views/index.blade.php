@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
     </head>
-    <body>
-        <section class="wrapper" id="nid">
+    <body>    
+        <section class="wrapper" id="nid">            
             <header>
                 <nav class="navbar navbar-default navbar-static-top">
                     <section class="container-fluid">
@@ -55,10 +55,10 @@
                 el: '#nid',
                 data: {
                     query: '',
-                    todos: [],
+                    todos: [],                    
                 },
                 watch: {
-                    query: function(val) {                        
+                    query: function(val) {
                         this.getTodos(val);
                     }
                 },
@@ -66,10 +66,10 @@
                     this.getTodos('');
                 },
                 methods: {
-                    getTodos: function(query) {                        
+                    getTodos: function(query) {
                         this.$http.get('/api/todo?q=' + query).then(
                             function(response) {
-                                this.todos = response.data;                                
+                                this.todos = response.data;
                             },
                             function(err) {
                                 console.log(err);

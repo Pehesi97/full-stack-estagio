@@ -3,9 +3,6 @@ let todos = Vue.component('todos', {
     template:   '<section class="todos" v-if="todos.length > 0"> \
                     <todo v-for="todo in todos" v-bind:title="todo.title" v-bind:tasks="todo.tasks" v-bind:key="todo.id"> \
                     </todo> \
-                </section> \
-                <section v-else-if="todos"> \
-                    <section class="col-md-4">Não foram encontrados resultados para sua pesquisa.</section> \
                 </section>',
 });
 
